@@ -39,3 +39,11 @@ bool rules::check_status(std::string path) {
     for(auto i : this->ruleList){
     }
 }
+
+void rules::sync_to_Disk() {
+
+}
+
+void rules::restore_from_Disk() {
+
+}

@@ -27,11 +27,11 @@ namespace core {
     public:
         rules() {
 //TODO: Check if configuration has been done(Env)
-            restore_from_Disk();
+            this->restore_from_Disk();
         };
 
         virtual ~rules() {
-            sync_to_Disk();
+            this->sync_to_Disk();
         };
 
         int add_Rules(std::string, int);
